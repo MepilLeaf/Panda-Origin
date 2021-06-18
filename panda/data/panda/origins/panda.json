@@ -1,0 +1,13 @@
+{
+    "powers": [
+        "panda:dash",
+        "panda:saturated",
+        "panda:heavy",
+        "panda:sturdy"
+    ],
+    "icon": "minecraft:bamboo",
+    "order": 1,
+    "impact": 1,
+    "name": "Panda",
+    "description": "Test Desc"
+}

@@ -1,0 +1,27 @@
+{
+    "type": "origins:multiple",
+    "knockback_resist": {
+        "type": "origins:attribute",
+        "modifier": {
+            "name": "Knockback Immunity",
+            "attribute": "minecraft:generic.knockback_resistance",
+            "value": 0.5,
+            "operation": "addition"
+        }
+    },
+    "slowness": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:slowness",
+                "duration": 2,
+                "amplifier": 0,
+                "show_icon": false,
+                "is_ambient": true,
+                "show_particles": false
+            }
+        },
+        "interval": 1
+    }
+}

@@ -54,10 +54,12 @@
         },
         "tick_rate": 1,
         "condition": {
-           "type": "origins:resource",
+            "type": "origins:resource",
             "resource": "panda:dash_inv_res",
             "comparison": "!=",
             "compare_to": 0
         }
-    }
+    },
+    "name": "Roll",
+    "description": "Using your weight you can roll in a direction pushing through enemies."
 }

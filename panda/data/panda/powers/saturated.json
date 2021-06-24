@@ -3,5 +3,7 @@
     "modifier": {
         "operation": "multiply_base",
         "value": 0.5
-    }
+    },
+    "name": "Saturated",
+    "description": "Because of your slothful nature, you lose hunger slower."
 }

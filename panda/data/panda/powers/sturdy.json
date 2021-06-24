@@ -16,5 +16,7 @@
             "value": 4,
             "operation": "addition"
         }
-    }
+    },
+    "name": "Sturdy",
+    "description": "You have natural armor and a little extra health."
 }

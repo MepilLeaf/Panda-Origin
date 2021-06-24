@@ -23,5 +23,7 @@
             }
         },
         "interval": 1
-    }
+    },
+    "name": "Heavy",
+    "description": "Because you are heavy, you are slowed down, but you take less knockback."
 }

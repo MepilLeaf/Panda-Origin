@@ -45,13 +45,16 @@
         "interval": 2
     },
     "inv": {
-        "type": "origins:modify_damage_taken",
+        "type": "origins:conditioned_attribute",
         "modifier": {
-            "operation": "multiply_total",
-            "value": -1
+            "name": "Knockback Immunity",
+            "attribute": "minecraft:generic.knockback_resistance",
+            "value": 1.0,
+            "operation": "addition"
         },
+        "tick_rate": 1,
         "condition": {
-            "type": "origins:resource",
+           "type": "origins:resource",
             "resource": "panda:dash_inv_res",
             "comparison": "!=",
             "compare_to": 0

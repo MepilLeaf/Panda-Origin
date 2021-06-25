@@ -17,6 +17,30 @@
             "operation": "addition"
         }
     },
+    "size": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "function panda:size",
+            "permission_level": 4
+        },
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "function panda:size",
+            "permission_level": 4
+        },
+        "entity_action_respawned": {
+            "type": "origins:execute_command",
+            "command": "function panda:size",
+            "permission_level": 4
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "function panda:reset_size",
+            "permission_level": 4
+        },
+        "execute_chosen_when_orb": true
+    },
     "name": "Sturdy",
     "description": "You have natural armor and a little extra health."
 }

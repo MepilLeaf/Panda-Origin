@@ -8,7 +8,8 @@
                 {
                     "type": "origins:add_velocity",
                     "z": 1,
-                    "space": "local"
+                    "space": "local",
+                    "set": true
                 },
                 {
                     "type": "origins:change_resource",
